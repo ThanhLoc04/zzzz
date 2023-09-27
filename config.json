@@ -1,0 +1,65 @@
+{
+    "language": "vi",
+    "keyActive": "bok",
+    "DeveloperMode": false,
+    "autoCreateDB": true,
+    "allowInbox": true,
+    "autoClean": false,
+    "commandDisabled": [],
+    "eventDisabled": [],
+    "EMAIL": "",
+    "PASWORD": "",
+    "OTPKEY": "",
+    "BOTNAME": "",
+    "PREFIX": "#",
+    "ADMINBOT": [
+        "100092492468539",
+        "100063600331393"
+    ],
+    "NDH": [],
+    "DATABASE": {
+        "sqlite": {
+            "storage": "data.sqlite"
+        }
+    },
+    "APPSTATEPATH": "appstate.json",
+    "FCAOption": {
+        "forceLogin": true,
+        "listenEvents": true,
+        "pauseLog": true,
+        "logLevel": "error",
+        "selfListen": true,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+    },
+    "version": "1.2.15",
+    "daily": {
+        "cooldownTime": 43200000,
+        "rewardCoin": 200
+    },
+    "sing": {
+        "YOUTUBE_API": "AIzaSyCXtsOpIMInU5TOWkz0b2xjqwbx0aLUKJw",
+        "SOUNDCLOUD_API": "M4TSyS6eV0AcMynXkA3qQASGcOFQTWub"
+    },
+    "work": {
+        "cooldownTime": 1200000
+    },
+    "adminUpdate": {
+        "autoUnsend": true,
+        "sendNoti": true,
+        "timeToUnsend": 10
+    },
+    "log": {
+        "enable": true
+    },
+    "menu": {
+        "autoUnsend": {
+            "status": true,
+            "timeOut": 90
+        },
+        "sendAttachments": {
+            "status": true,
+            "random": true,
+            "url": "https://i.imgur.com/OyXQ5co.jpg"
+        }
+    }
+}
